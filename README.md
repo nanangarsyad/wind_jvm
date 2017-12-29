@@ -104,13 +104,13 @@ public class Test7 extends Thread{
 		
 
 		Signal.handle(new Signal("INT"), new SignalHandler() {
-            public void handle(Signal sig) {
-                System.out
-                        .println("Aaarggh, a user is trying to interrupt me!!");
-                System.out
-                        .println("(throw garlic at user, say `shoo, go away')");
-            }
-        });
+			public void handle(Signal sig) {
+				System.out
+					.println("Aaarggh, a user is trying to interrupt me!!");
+				System.out
+					.println("(throw garlic at user, say `shoo, go away')");
+		    }
+		});
 		Signal.handle(new Signal("INT"), SignalHandler.SIG_IGN);
 
 		System.out.println(Float.POSITIVE_INFINITY / 0);
