@@ -46,8 +46,6 @@ import sun.nio.fs.UnixFileSystemProvider;
 
 import java.lang.Void;
 
-// 粗略计算了一下。执行这个文件，需要执行 85w+ 个字节码。iterm 都被输出卡死了...
-
 public class Test7 extends Thread{
 
 	@Override
