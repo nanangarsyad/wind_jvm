@@ -394,6 +394,11 @@ Exception in thread "main" java.io.FileNotFoundException: / (Is a directory)
 ## About Tests
 Some Java Tests are from network, especially those java lambda test files. Thank you~
 
+## pitfalls that can improve
+1. NAN's pricise message
+2. exception's priceise message
+3. improve lambda
+
 ## Java Features Support
 - [x] fully independent ClassFile parser tool support: @[wind2412:javap](https://github.com/wind2412/javap) 
 - [x] multithread support
