@@ -28,7 +28,6 @@ ifeq ($(shell uname),Darwin)
 else 
 	$(CC) $(LINK_FLAGS) -L/usr/lib/x86_64-linux-gnu/ -pthread -g -I./include -o bin/wind_jvm $^ -lboost_system -lboost_filesystem
 endif
-# 卧槽？？ g++ 必须把链接库放在最后边？？？？放在前面能识别但是不装载......mac 的 ld 就没这个问题啊......
 
 test : $(JAVA_TEST_OBJ)
 #	@cd tests && make all
