@@ -1,7 +1,7 @@
 CC := g++
 CPP_FLAGS := -std=c++14 -O3 -pg
-#CPP_FLAGS := -std=c++14 -O3 -pg -DBYTECODE_DEBUG -DDEBUG
-#CPP_FLAGS := -std=c++14 -O3 -DDEBUG -DKLASS_DEBUG -DPOOL_DEBUG -DSTRING_DEBUG
+# CPP_FLAGS := -std=c++14 -O3 -pg -DBYTECODE_DEBUG -DDEBUG
+# CPP_FLAGS := -std=c++14 -O3 -DDEBUG -DKLASS_DEBUG -DPOOL_DEBUG -DBYTECODE_DEBUG
 LINK_FLAGS := -std=c++14 -pg
 EXCEPT := ./useful_tools/classfile_interceptor.cpp
 # CPP_SOURCE := $(filter-out $(EXCEPT), $(shell find . -path "./tests" -prune -o -maxdepth 2 -name "*.cpp" -print))

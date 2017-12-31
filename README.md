@@ -415,7 +415,7 @@ If you modify `Makefile` and modify it to `CPP_FLAGS := -std=c++14 -O3 -DDEBUG -
 // Test.java
 class Test {
 	public static void main(String[] args) {
-		System.out.println("今天是个好日子！2017年12月2日，我的 jvm 可以打印 hello world 了！！\n");	
+		System.out.println("Today is a good day！On December 2nd，my jvm can print hello world~\n");	
 	}
 }
 ```
@@ -426,4 +426,4 @@ class Test {
 ```
 
 You can see lots of bytecode output. And the execution result are as below:
-![hello world](https://wind2412.files.wordpress.com/2017/12/b7976a42d4d265ec2c89f1f11f6c3f69.jpg)
+![hello world](https://wind2412.files.wordpress.com/2017/12/qq20171231-1436422x.jpg)
