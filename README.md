@@ -396,7 +396,7 @@ Some Java Tests are from network, especially those java lambda test files. Thank
 
 ## pitfalls that can improve
 1. NAN's pricise message
-2. exception's priceise message
+2. exception's pricise message
 3. improve lambda
 
 ## Java Features Support
