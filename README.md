@@ -408,3 +408,22 @@ Some Java Tests are from network, especially those java lambda test files. Thank
 - [x] big deal of reflection support
 - [x] stop-the-world and GC support, using GC-Root algorithm.
 
+## Output bytecode execution messages
+If you modify `Makefile` and modify it to `CPP_FLAGS := -std=c++14 -O3 -DDEBUG -DKLASS_DEBUG -DPOOL_DEBUG -DSTRING_DEBUG`, all execution message will be showed in output.    
+
+```
+// Test.java
+class Test {
+	public static void main(String[] args) {
+		System.out.println("今天是个好日子！2017年12月2日，我的 jvm 可以打印 hello world 了！！\n");	
+	}
+}
+```
+
+```
+// re-compile and re-run:
+> ./bin/wind_jvm Test
+```
+
+You can see lots of bytecode output. And the execution result are as below:
+![hello world](https://wind2412.files.wordpress.com/2017/12/b7976a42d4d265ec2c89f1f11f6c3f69.jpg)
