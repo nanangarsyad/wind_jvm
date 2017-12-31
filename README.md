@@ -395,8 +395,8 @@ Exception in thread "main" java.io.FileNotFoundException: / (Is a directory)
 Some Java Tests are from network, especially those java lambda test files. Thank you~
 
 ## pitfalls that can improve
-1. NAN's pricise message
-2. exception's pricise message
+1. NAN's precise message
+2. exception's precise message
 3. improve lambda
 
 ## Java Features Support
